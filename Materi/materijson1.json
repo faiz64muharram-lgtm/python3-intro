@@ -1,0 +1,34 @@
+{
+    "title":"Biodata Santri",
+    "total":8,
+    "Status santri":true,
+    "Status lulus":false,
+    "pelajaran":["MTK","Nahwu","Arabic","shorof"],
+
+    "surah":[
+
+        {
+            
+            "no":1,
+            "nama":"Al-fatihah",
+            "ayat":7,
+            "Turun":"Makkah"
+
+
+
+        },
+        {
+
+            "no":2,
+            "nama":"Al-baqoroh",
+            "ayat":286,
+            "Turun":"Madinah"
+
+        }
+
+    ]
+
+}
+
+
+
