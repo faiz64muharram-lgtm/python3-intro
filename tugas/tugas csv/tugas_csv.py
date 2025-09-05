@@ -1,6 +1,6 @@
 import csv
 
-file_path=r"C:\Users\Ahmad Faiz Muharram\OneDrive\Desktop\phyton project\filerandom\tugas csv\tugas.csv"
+file_path=r"C:\Users\Ahmad Faiz Muharram\OneDrive\Desktop\python3-intro\tugas\tugas csv\tugas.csv"
 
 with open(file_path,"r") as file_baru:
     next(file_baru)
@@ -23,7 +23,7 @@ with open(file_path,"a",newline="") as file_pesan:
  
  writer= csv.writer(file_pesan)
  
- writer.writerow({"10",'magelang',"abdul"})
+ writer.writerow({"2025-08-17",'Push Rank',"ML","5 Bintang"})
  
 
 
