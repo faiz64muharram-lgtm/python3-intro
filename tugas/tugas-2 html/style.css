@@ -1,0 +1,65 @@
+.garis {
+  padding-left: 10px;      /* ruang agar teks tidak mepet garis */
+  border-left: 4px solid #f4e406; /* garis aksen di kiri */
+}
+
+
+
+.avatar {
+  width: 200px;         
+  height: 200px;         
+  object-fit: cover;     /* isi area tanpa distorsi */
+  border-radius: 50%;
+  border: 3px solid #fafafc;
+}
+/* Menambahkan garis tepi (border) setebal 3px, 
+gaya solid (garis penuh), dengan warna abu-abu muda #e5e7eb. */
+
+
+
+
+.logo {
+  text-align: center;  
+  margin-top: 20px; 
+  
+}
+
+.logo img {
+  width: 100px;
+}
+
+
+
+.judul{
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+
+}
+
+.bawah-judul{
+    color: gray;
+    text-align: center;
+}
+
+.foto {
+  background: white;
+  width: 55%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 5px 10px rgb(0, 0, 0);
+}
+
+.photo {
+  border-radius: 12px;
+}
+
+.tengah{
+  text-align: center;
+  margin-left: 600px;
+  
+  
+}
