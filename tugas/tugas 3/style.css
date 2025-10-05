@@ -1,0 +1,186 @@
+.garis {
+  padding-left: 11px;
+  border-left: 4px solid #f4e406;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #a29e9ec6;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.judul {
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.bawah-judul {
+  color: gray;
+  text-align: center;
+}
+
+.foto {
+  background: white;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+
+.tengah {
+  margin-left: 600px;
+}
+/* Tugas Pekan 3 */
+
+.table-container {
+  width: 55%;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.judul-tabel {
+  text-align: left;
+  color: #0b7dff;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 4px solid #f4e406;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1a237e;
+  color: white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd; 
+}
+
+td:hover {
+  background-color: #f1f1f1;
+}
+
+.nav a {
+  color: rgb(15, 15, 15);
+  text-decoration: none; 
+  border-radius: 22px; 
+  background: #f7f3f3;
+  padding: 6px 14px;
+  margin-right: 8px; 
+}
+a:hover {
+  color: aqua;
+  background: #0b7dff;
+}
+
+.aktif {
+  background: #0024ef;
+  color: #ddd;
+}
+
+.form {
+  background: white;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+  padding-top: 20px;
+}
+
+.border-input {
+  width: 100%;
+  height: 30px;
+}
+
+.button {
+  text-align: right;
+}
+.button1 {
+  background-color: gray;
+}
+.button2 {
+  background-color: #0b7dff;
+}
+
+.gallery {
+  text-align: center;
+  color: rgb(14, 14, 14);
+  background: white;
+  width: 65%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+.gallery h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+ 
+}
+.gallery .card {
+  display: inline-block;
+  width: 200px;
+  border: 2px;
+  margin: 11px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.gallery .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.gallery .card figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background-color: aqua;
+  margin-top: -7px;
+  padding: 4px;
+
+  
+}
+
+.iframe {
+  background: white;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+
+.iframe iframe {
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
