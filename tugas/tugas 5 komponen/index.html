@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="Light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 5</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Tugas 1 -->
+      <div class="card">
+        <h2>1. Informasi Penting</h2>
+        <hr />
+        <div class="alert wadah-flexbox">
+          <p>ℹ️ Info: Pastikan data Anda sudah lengkap sebelum dikirim.</p>
+          <button 
+            class="close button"
+            onclick="this.parentElement.style.display='none'"
+            
+          >
+            ×
+          </button>
+        </div>
+      </div>
+      <!-- Tugas 2 -->
+      <div class="card">
+        <h2>2. Profil Card Dengan Status Badge</h2>
+        <div class="profile-card">
+          <div class="avatar">
+            <img
+              src="image/WIN_20250917_20_14_17_Pro.jpg"
+              class="avatar"
+              alt="User Photo"
+            />
+            <span class="badge">Active</span>
+          </div>
+          <h3>Ahmad Faiz</h3>
+          <p>Publik Speakers</p>
+        </div>
+      </div>
+      <!-- Tugas 3 -->
+      <div class="card">
+        <h2>3. Pricing Card</h2>
+        <div class="flexbox-area">
+          <div class="card2">
+            <h3>Basic</h3>
+            <p class="price">Rp50.000</p>
+            <p>1 Project<br />Community Support</p>
+            <button>Pilih Paket</button>
+          </div>
+          <div class="card2 pro-blue">
+            <h3>Pro</h3>
+            <p class="price">Rp150.000</p>
+            <p>5 Projects<br />Priority Support</p>
+            <button>Pilih Paket</button>
+          </div>
+          <div class="card2">
+            <h3>Enterprise</h3>
+            <p class="price">Rp300.000</p>
+            <p>Unlimited Projects<br />Dedicated Support</p>
+            <button>Pilih Paket</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- tutup container -->
+  </body>
+</html>

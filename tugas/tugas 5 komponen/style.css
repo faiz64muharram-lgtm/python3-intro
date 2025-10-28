@@ -1,0 +1,123 @@
+/* Tugas 1 */
+
+.card {
+  background: white;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #a29999;
+  border-radius: 12px;
+  margin-top: 35px;
+}
+
+.card h2 {
+  padding-top: 20px;
+  padding-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.alert {
+  background: #e0f2fe;
+  border: 1px solid #38bdf8;
+  padding: 10px;
+  position: relative;
+  margin: 20px 20px;
+}
+
+.button {
+  position: absolute;
+  top: 4px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+
+.button :hover {
+  background: #bae6fd;
+}
+
+/* Tugas 2 */
+.profile-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.08);
+  width: 180px;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  margin: 8px 14px;
+}
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 8px rgba(0, 0, 0, 0.12);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.badge {
+  position: absolute;
+  top: 19px;
+  right: 40px;
+  background: #22c55e; 
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+/* Tugas 3 */
+.flexbox-area {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.card2{
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px 32px;
+  min-width: 200px;
+  box-shadow:0 7px 8px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  
+}
+
+.card2.pro-blue {
+  border: 2px solid #6c63ff;
+}
+
+.card2 h3 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card2 .price {
+  color: #6c63ff;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.card2 button {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-top: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card2 button:hover {
+  background: #4b43bd;
+}
