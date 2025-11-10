@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="judul">
+      <h1>Formulir Umpan Balik</h1>
+      <h2 class="bawah-judul">Kritik,Saran Dan Masukkan</h2>
+      <br />
+      <hr />
+      <br /><br />
+
+      <div class="nav">
+        <a href="index.html">Beranda</a> <a href="biodata.html">Biodata</a>
+        <a href="jadwal.html">Jadwal</a> <a href="galeri.html">Galeri</a>
+        <a href="feedback.html">Feedback</a>
+      </div>
+    </div>
+    <br /><br /><br />
+    <hr />
+
+   
+      
+
+      <form class="form-container">
+        <h2 class="garis">Formulir Kontak & Saran</h2>
+      <p>
+        Berikan masukkan saran terbaik anda tentang pengembangan website ini.
+      </p>
+        <div class="form-row">
+          <div class="form-group">
+            <p><b>Nama Anda(optional):</b></p>
+            <label for="Namalengkap"><b></b></label>
+            <input
+              class="border-input"
+              type="text"
+              name="nama-lengkap"
+              id="Namalengkap"
+              placeholder="Masukkan nama anda..."
+            />
+          </div>
+          <div class="form-group">
+            <p><b>Email Anda:</b></p>
+            <label for="email"></label>
+            <input
+              class="border-input"
+              type="email"
+              name="email-"
+              id="email"
+              placeholder="Masukkan email anda..."
+            />
+          </div>
+        </div>
+        <br />
+        <div class="form-row">
+        <div class="form-group">
+          <p><b>Masukkan Rating (Skala 1-10):</b></p>
+          <label for="umur"></label>
+          <input
+            class="border-input"
+            type="number"
+            name="umur"
+            id="umur"
+            placeholder="Masukkan Skala 1-10..."
+          />
+        </div>
+        <br />
+        <div class="form-group">
+          <p><b>Rekomendasi website ini?</b></p>
+          <input type="radio" name="Rekomendasi1" id="Rekomendasi1" />
+          <label for="Rekomendasi1">Ya,sangat</label>
+          <input type="radio" name="Rekomendasi2" id="Rekomendasi2" />
+          <label for="Rekomendasi2">Mungkin saja</label>
+          <input type="radio" name="Rekomendasi3" id="Rekomendasi3" />
+          <label for="Rekomendasi3">Tidak</label>
+        </div>
+        
+        <div class="form-group">
+          <p><b>Topik yang paling menarik:</b></p>
+          <input type="checkbox" name="Topik1" id="Topik1" />
+          <label for="Topik1">Biodata</label>
+          <input type="checkbox" name="Topik2" id="Topik2" />
+          <label for="Topik2">Jadwal</label>
+          <input type="checkbox" name="Topik3" id="Topik3" />
+          <label for="Topik3">Galeri</label>
+        </div>
+        <br />
+        <div class="form-group">
+          <p><b>Saran pengembangan di Bidang:</b></p>
+          <label for="Saran"></label>
+          <select class="border-input" name="Saran" id="Saran">
+            <br />
+
+            <option value="DKR">--Pilih Bidang--</option>
+            <option value="PLS">Polisi</option>
+            <option value="PLN">Tukang Listrik</option>
+          </select>
+        </div>
+        </div>
+        <br />
+
+        <div class="full-width">
+          <p><b>Pesan/Saran Lengkap:</b></p>
+          <label for="saran"></label>
+          <textarea
+          rows="5"
+            id="saran"
+            name="saran"
+            placeholder="Tulis pesan Anda disini (secara detail)..."
+            class="border-input"
+          ></textarea>
+        </div>
+        <br />
+
+        <div class="full-width">
+          <button class="button1" type="reset">Atur ulang</button>
+          <button class="button2" type="submit">Kirim Feedback</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

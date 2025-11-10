@@ -1,0 +1,333 @@
+/* Tugas Reponsif */
+
+/* Descopt: tulis style dasar di sini */
+
+.garis {
+  padding-left: 11px;
+  border-left: 4px solid #f4e406;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #a29e9ec6;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.judul {
+  color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+.bawah-judul {
+  color: gray;
+  text-align: center;
+}
+
+.foto {
+  background: white;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+
+.tengah {
+  margin-left: 600px;
+}
+/* Tugas Pekan 3 */
+
+.table-container {
+  width: 55%;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.judul-tabel {
+  text-align: left;
+  color: #0b7dff;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border-left: 4px solid #f4e406;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1a237e;
+  color: white;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+td:hover {
+  background-color: #f1f1f1;
+}
+
+.nav a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+  border-radius: 22px;
+  background: #f7f3f3;
+  padding: 6px 14px;
+  margin-right: 8px;
+}
+
+a:hover {
+  color: aqua;
+  background: #0b7dff;
+}
+
+.aktif {
+  background: #0024ef;
+  color: #ddd;
+}
+
+.form-container {
+  background: white;
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+
+.form-row .form-group {
+  flex: 1;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+.gallery {
+  text-align: center;
+  color: rgb(14, 14, 14);
+  background: white;
+  width: 65%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+.gallery h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+}
+.gallery .card {
+  display: inline-block;
+  width: 200px;
+  border: 2px;
+  margin: 11px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+.gallery .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.gallery .card figcaption {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  background-color: aqua;
+  margin-top: -7px;
+  padding: 4px;
+}
+
+.iframe {
+  background: white;
+  width: 60%;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(114, 106, 106);
+}
+
+.iframe iframe {
+  width: 90%;
+  object-fit: cover; 
+  border: none;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ukuran max 767px => smartphone */
+@media screen and (max-width: 599px) {
+  
+  .nav {
+    display: flex; 
+    gap: 15px; 
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 12px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: black;
+    background: rgb(105, 153, 225);
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav :hover {
+    background: #e8e8e8;
+  }
+
+  /* profil */
+
+  .foto {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  /* gallery */
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    
+  }
+
+  .card {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 220px;
+    /* -------------------------------------- */
+
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin: 0 7.5px;
+    
+  }
+  .iframe {
+    width: 95%;
+  }
+  /* Jadwal Table */
+  .table-container {
+    height: 30;
+    overflow-x: auto;
+  }
+
+  .form {
+    width: 80%;
+  }
+  /* feedback */
+
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+/* Tablet */
+@media (min-width: 599px) and (max-width: 1023px) {
+  /* penyesuaian tablet */
+  .nav a {
+    margin-right: 0;
+  }
+  /* gallery */
+
+  .gallery {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .iframe {
+    max-width: 700px;
+  }
+  /* profil */
+  .foto {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+  }
+
+  /* Table */
+  .table-container {
+    width: 80%;
+  }
+
+}
